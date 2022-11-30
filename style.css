@@ -1,0 +1,53 @@
+body {
+  background-color: gray;
+  color: darkorchid;
+  flex-direction: column;
+  display: flex;
+}
+header,
+footer {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.subheader {
+  color: white;
+  margin-top: 0;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: center;
+  column-gap: 20px;
+  width: 100%;
+  margin: 0 20px;
+}
+.card {
+  display: flex;
+  border: 1px dashed white;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+}
+.description {
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+}

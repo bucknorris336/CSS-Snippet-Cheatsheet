@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">CSS Snippet Cheatsheet</h1>
+      <p class="subheader">
+        Ever have trouble recaling the exact syritar for your tivorta CSS code?
+        Give a permanert home and add I & to this pagel Select ny snippet below
+        and it automaticaly select all of the code for you to copy.
+      </p>
+    </header>
+
+    <section class="main-content">
+      <article class="card">
+        <h2>Flex Row</h2>
+        <p class="desription">
+          Use these three properties to create a Flexbox row layout.
+        </p>
+        <div class="code-container">
+          <pre>
+            .row {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+            }
+          </pre>
+        </div>
+      </article>
+      <article class="card">
+        <h2>Flex Box Column</h2>
+        <p class="desription">
+          Use this to create a Flexbox column layout.
+        </p>
+        <div class="code-container">
+          <pre>
+            .column {
+              display: flex;
+              flex-direction: column;
+            }
+          </pre>
+        </div>
+      </article>
+      <article class="card">
+        <h2>CSS Grid Layout</h2>
+        <p class="desription">
+          Build a 12-column layout using CCS Grid.
+        </p>
+        <div class="code-container">
+          <pre>
+           .grid {
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(12, 1fr);
+          }
+          </pre>
+        </div>
+      </article>
+       <article class="card"></article>
+      <h2>Lienear Gradients</h2>
+      <p class="desription">
+          This will create a background linear gradient from top to bottom.
+        </p>
+        <div class="code-container">
+          <pre>
+           .linear-gradient-background {
+            background-image: linear-gradient(
+              rgba(232, 102, 236 0.3) 0%,
+              rgba(232, 102, 236m 0.6) 100%
+            );
+          } 
+          </pre>
+        </div>
+      </article>
+      <article class="card">
+        <h2>Box Transition Glow</h2>
+        <p class="desription">
+          Use this to create a Flexbox column layout.
+        </p>
+        <div class="code-container">
+          <pre>
+            .code-card .card-header {
+              border-radius: 8px;
+              transition: all 0.5s ease-in-out;
+            }
+
+            .code-card: :hover,
+            .code-card: :hover .cardheader {
+              box-shaddow: inset 0px 0px 8px rgba(232, 102, 236, 1),
+                0 0 15px rgba(232, 102, 236, 1);
+            }
+          </pre>
+        </div>
+      </article>
+      <article class="card">
+        <h2>Overlay Card with Tital</h2>
+        <p class="desription">
+          Use position propertoes and negative margins to raise ekements higher than their natural starting point.
+        </p>
+        <div class="code-container">
+          <pre>
+           .card-header {
+            position: relative;
+            margin-top: -20px;
+          }
+          </pre>
+        </div>
+      </article>
+    </section>
+    <footer>
+      <h3>Made with ❤️ and CSS</h3>
+    </footer>
+  </body>
+</html>
